@@ -1,34 +1,41 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Saad M. Siddiqui",
+  title: "Lead Software Engineer - AI Engineering @ Afiniti Inc. / MS-CS Machine Learning @ GATech",
+  description: "Portfolio website of Saad M. Siddiqui",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "saadsiddiqui.ned16@example.com",
+    linkedin: "https://linkedin.com/in/SMS-NED16",
+    github: "https://github.com/SMS-NED16",
+    scholar: "https://scholar.google.com/citations?user=o4oci7QAAAAJ&hl=en"
   },
-  aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
-  projects: [
+  aboutMe: "Describe work at Afiniti. Describe work at ",
+  skills: ["Python", "R", "SQL", "TensorFlow"],
+  research: [
     {
-      name: "AI Dev Roundup Newsletter",
-      description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
+      name: "TrustScore - Model-Agnostic, Multidimensional, Reference-less LLM Response Evaluation",
+      description: "A 'bring your own model' framework for zero-shot task-agnostic LLM response reliability evaluation.",
       link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      skills: ["Python", "vLLM", "HuggingFace", "LLaMA"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Comparative Analysis of Efficient Adapter-Based Fine-Tuning of State-of-the-Art Transformer Models",
+      description:
+        "Quantifying runtime vs task-specific performance tradeoffs of using adapter-based fine-tuning for BART, DistilBERT, and ELECTRA. Our experiments demonstrated that adapters achieve upto 95% of the performance of full fine-tuning at 40% of the computational cost on subtasks from the SuperGLUE dataset.",
+      link: "https://arxiv.org/abs/2501.08271",
+      skills: ["Python", "Torch", "HuggingFace", "adapters"],
+    },
+  ],
+  projects: [
+    {
+      name: "Vhagar",
       description:
         "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
       link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      skills: ["Python", "Torch", "polars", "LightGBM", "Stan", "ONNX", "Panel"],
     },
     {
-      name: "ExtensionKit",
+      name: "Afiniti AiRo",
       description:
         "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
       link: "https://extensionkit.io/?ref=devportfolio",
@@ -37,8 +44,8 @@ export const siteConfig = {
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
+      company: "Afiniti Inc.",
+      title: "Lead Software Engineer - AI Engineering",
       dateRange: "Jan 2022 - Present",
       bullets: [
         "Led development of microservices architecture serving 1M+ users",
@@ -47,8 +54,28 @@ export const siteConfig = {
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
+      company: "Afiniti Inc.",
+      title: "Senior Data Scientist - Applied AI",
+      dateRange: "September 2022 - December 2024",
+      bullets: [
+        "Led development of microservices architecture serving 1M+ users",
+        "Reduced API response times by 40% through optimization",
+        "Mentored team of 5 junior developers",
+      ],
+    },
+    {
+      company: "AI Account Lead - Applied AI",
+      title: "Afiniti Software Solutions Pvt. Limited",
+      dateRange: "February 2022 - September 2022",
+      bullets: [
+        "Built and launched MVP product from scratch using React and Node.js",
+        "Implemented CI/CD pipeline reducing deployment time by 60%",
+        "Collaborated with product team to define technical requirements",
+      ],
+    },
+    {
+      company: "Data Scientist II - AI Production",
+      title: "Afiniti Software Solutions Pvt. Limited",
       dateRange: "Jun 2020 - Dec 2021",
       bullets: [
         "Built and launched MVP product from scratch using React and Node.js",
@@ -57,35 +84,34 @@ export const siteConfig = {
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "Data Scientist I - AI Production",
+      title: "Afiniti Software Solutions Pvt. Limited",
+      dateRange: "Jun 2020 - Dec 2021",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Built and launched MVP product from scratch using React and Node.js",
+        "Implemented CI/CD pipeline reducing deployment time by 60%",
+        "Collaborated with product team to define technical requirements",
       ],
     },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Georgia Institute of Technology",
+      degree: "Master of Science in Computer Science (Specialization: Machine Learning)",
+      dateRange: "Aug 2023 - May 2025",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Graduated with a 3.9 GPA",
+        "Relevant coursework: Deep Learning, Machine Learning, Specia",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "NED University of Engineering and Technology",
+      degree: "Bachelor of Engineering in Electrical Engineering (with Distinction)",
+      dateRange: "Dec 2016 - Aug 2020",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Graduated with a 3.93 CGPA - top 10% of class.",
+        "VP and General Secretary - NED Artificial Intelligence Club",
+        "Relevant ",
       ],
     },
   ],
